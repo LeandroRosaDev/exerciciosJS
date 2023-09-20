@@ -3,7 +3,7 @@
 // Retorne a array, o primeiro elemento deve ser o 
 // próprio número fornecido (b) ou zero se o número (b) for menor que 6
 
-function numerosArbitrarios([...a]:Array<any>,b:number):Array<string|number|boolean>{
+const numerosArbitrarios = ([...a]:Array<any>,b:number):Array<string|number|boolean> => {
      if(b>=6) a.unshift(b)
      else a.unshift(0)
      return a

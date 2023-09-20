@@ -3,7 +3,7 @@
 //forem iguais. 
 // Deve retornar falso caso contrário
 
-function arrayItensIguais ([...arg]:unknown[]):boolean{   
+const arrayItensIguais = ([...arg]:unknown[]):boolean => {   
         const item = arg[0]
         
         

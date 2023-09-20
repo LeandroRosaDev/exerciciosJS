@@ -2,7 +2,7 @@
 // Verifique se x é divisível por y. Se sim, retorne x. 
 // Caso contrário, retorne o próximo número natural maior que seja divisível por y
 
-function numeroDivisivel (x:number, y:number){
+const numeroDivisivel = (x:number, y:number) => {
     var n1 = Math.floor(x);
     var n2 = Math.floor(y);
     if(n1 % n2 === 0){

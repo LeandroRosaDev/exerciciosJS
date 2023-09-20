@@ -3,7 +3,7 @@
 // e o segundo argumento como o valor a partir do qual a 
 // porcentagem será calculada
 
-function porcentagem(a: number , b: number):number{
+const porcentagem = (a: number , b: number):number => {
     var resultado = a * b / 100; 
     return resultado
     }

@@ -3,23 +3,11 @@
 // A função deve remover o valor (b) do array (a). 
 // Retorne a matriz filtrada
 
-// function removerArgumentodaArray ([...a],b){
-//     var valor = a 
-//     var encontrar = valor.indexOf(b);
-//     console.log(encontrar);
-//     if(valor.includes(b) === true){
-//        valor.splice(encontrar,b)
-//        return console.log(valor);  
-//     }
-//     else console.log('não está');
-// }
-//  removerArgumentodaArray([1,2,2,3],2)
 
-function removerArgumentodaArray([]:Array<number|boolean|string>,b:number|string|boolean):Array<number|boolean|string>{
-    var array = arguments[0]
-    
+const removerArgumentodaArray = ([...a]:Array<number|boolean|string>,b:number|string|boolean):Array<number|boolean|string> => {
+    var array = a
     var resultado = array.filter((item:string|boolean|number)=>{
-        return item != arguments[1] 
+        return item != b 
     })
     return resultado;
 }

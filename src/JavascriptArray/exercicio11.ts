@@ -4,7 +4,7 @@
 //   como a quantidade de números a serem extraídos. 
 //   Retorne a matriz resultante
 
-function removerNumeros ([...a]:number[],b:number):number[]{
+const removerNumeros = ([...a]:number[],b:number):number[] => {
     const resultado = a.splice(-b)
     return resultado
 }

@@ -1,7 +1,7 @@
 // Escreva uma função que receba um array de números como argumento. 
 // Deve retornar um array com os números classificados em ordem decrescente
 
-function organizaNumeros([...n]:number[]):number[]{
+const organizaNumeros = ([...n]:number[]):number[] => {
     
     var novoN = n.sort((a:number,b:number)=>{
         return b - a

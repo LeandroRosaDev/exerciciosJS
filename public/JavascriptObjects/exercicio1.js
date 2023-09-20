@@ -7,11 +7,11 @@ const objetoLiretal = {
     escolaridade: 'superior cursando'
 };
 console.log(objetoLiretal);
-function ObjetoConstrutor(nome, idade, escolaridade) {
+const ObjetoConstrutor = (nome, idade, escolaridade) => {
     this.nome = nome;
     this.idade = idade;
     this.escolaridade = escolaridade;
-}
+};
 const objetoConstruido = new ObjetoConstrutor('Junior', 25, 'superior');
-const objetoDescontruido = new ObjetoConstrutor('Senior', 56, 'fundamental');
+const objetoDescontruido = new ObjetoConstrutor('Rodrigo', 56, 'fundamental');
 console.log(objetoDescontruido);

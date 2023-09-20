@@ -2,16 +2,23 @@
 // como argumento. 
 // Remova uma das propriedades do objeto e 
 // retorne o objeto atualizado.
-
+interface n {
+    a?:number;
+    b?:number;
+    c?:number;
+    d?:number;
+    e?:number;
+}
 const obj = {
     a:1,
     b:7,
     c:3,
 }
 
-function objeto(arg){
-    console.log(arg.a);
-    
-    
+const objeto = (arg:n):n =>{
+    delete arg.a
+    return arg;
 }
-objeto(obj)
+console.log(objeto(obj));
+
+

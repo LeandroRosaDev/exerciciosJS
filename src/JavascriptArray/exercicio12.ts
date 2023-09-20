@@ -8,7 +8,7 @@
 // Por exemplo, o array ['Alan', 'Allen', 'Bruno'] deve ser transformado 
 // em { a: ['Alan', 'Allen'], b: ['Bruno']}
 
-function retornaObjs([...a]:string[]){
+const retornaObjs = ([...a]:string[]) => {
     const obj:any = {}
 
     for(const b of a){

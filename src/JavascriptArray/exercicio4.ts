@@ -3,7 +3,7 @@
 // Retorne a média dos números
 
 
-function mediaNumeros([...n]:number[]):number{
+const mediaNumeros = ([...n]:number[]):number => {
    var soma = 0
     for(let i=0; i<n.length; i++){ 
        soma = soma + n[i]

@@ -17,13 +17,14 @@ console.log(objetoLiretal);
 
 
 
-function ObjetoConstrutor(nome:string, idade:number, escolaridade:string){
+
+const ObjetoConstrutor = (nome:string, idade:number, escolaridade:string) => {
     this.nome = nome;
     this.idade = idade;
     this.escolaridade = escolaridade;
 }
 const objetoConstruido = new ObjetoConstrutor('Junior', 25, 'superior')
-const objetoDescontruido = new ObjetoConstrutor('Senior', 56, 'fundamental')
+const objetoDescontruido = new ObjetoConstrutor('Rodrigo', 56, 'fundamental')
 
 console.log(objetoDescontruido);
 

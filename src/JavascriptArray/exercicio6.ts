@@ -3,10 +3,10 @@
 // Deve retornar um array contendo os 
 // valores de todos os arrays
 
-function somaArrays(...[]:Array<Array<string|number|boolean>>):Array<string|boolean|number>{
+const somaArrays = (...[b]:Array<Array<string|number|boolean>>):Array<string|boolean|number> => {
     var soma:Array<string|boolean|number> = []
-    for(let i=0; i<arguments.length; i++){
-        soma = soma.concat(arguments[i])
+    for(let i=0; i<b.length; i++){
+        soma = soma.concat(b[i])
     }
     return soma;
 }

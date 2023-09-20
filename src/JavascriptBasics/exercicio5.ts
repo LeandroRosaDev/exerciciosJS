@@ -3,7 +3,7 @@
 //Caso contrário, multiplique os dois números. 
 // Retorne o valor resultante
 
-function compararNumero(n1:number,n2:number):number{
+const compararNumero = (n1:number,n2:number):number => {
     if(n1 <= n2 ) return  n1 / n2 
     else return n1 * n2 
 }

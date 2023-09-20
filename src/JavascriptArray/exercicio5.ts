@@ -2,7 +2,7 @@
 // array de strings como argumento. 
 // Retornar a string mais longa
 
-function retornaString([...n]:string[]):string{
+const retornaString = ([...n]:string[]):string => {
     n.sort((a,b)=>{
        return b.length - a.length
     })

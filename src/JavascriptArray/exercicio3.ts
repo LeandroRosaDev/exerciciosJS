@@ -2,7 +2,7 @@
 // Classifique os elementos da matriz em ordem alfabética. 
 // Devolva o resultado
 
-function organizaStrings([...n]:string[]):string[]{
+const organizaStrings = ([...n]:string[]):string[] => {
     var nm = n.toString().toLowerCase().split(',').sort()
     return nm;
 }

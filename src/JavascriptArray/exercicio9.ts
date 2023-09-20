@@ -2,7 +2,7 @@
 // e um número (b) como argumentos. 
 // Retorne os elementos da matriz maiores que b
 
-function retornarArgMaior([...a]:number[],b:number):number[]{
+const retornarArgMaior = ([...a]:number[],b:number):number[] => {
     const filtrar = a.filter((i)=> i > b)
     return filtrar;
 }

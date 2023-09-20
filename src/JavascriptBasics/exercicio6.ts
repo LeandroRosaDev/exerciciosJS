@@ -2,7 +2,7 @@
 // Verifique se a primeira string está contida na segunda. 
 // Retorne o resultado para o console.
 
-function comparaString (frase:string, fraseCompleta:string):string{
+const comparaString = (frase:string, fraseCompleta:string):string => {
     frase = frase.toLowerCase()
     fraseCompleta = fraseCompleta.toLowerCase()
     if (fraseCompleta.includes(frase))  return 'Existe' ;
