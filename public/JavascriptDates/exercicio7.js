@@ -5,3 +5,5 @@
 // 'hrs', 'min' e 'sec'. Os valores correspondentes 
 // devem exibir a diferença absoluta entre as 
 // duas datas em horas, minutos e segundos
+const oi = new Date('September 18 2023 21:08');
+const oi2 = new Date('September 18 2023 21:09');
